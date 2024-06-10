@@ -7,4 +7,4 @@ function Title() {
     </div>
   )
 }
-export default Title
+export default React.memo(Title)
